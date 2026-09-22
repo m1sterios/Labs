@@ -2,7 +2,7 @@
 
 const inc = (obj = 0) => {
   if (typeof obj === "object") {
-    if (obj.n != null) obj.n++;
+    if (obj.n !== null) obj.n++;
   }
 };
 
